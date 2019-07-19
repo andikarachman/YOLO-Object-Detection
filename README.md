@@ -28,25 +28,25 @@ If the input is an image, run the following:
 
 _$ yolo.py [-h] -i IMAGE -y YOLO [-c CONFIDENCE] [-t THRESHOLD]_
 
-IMAGE: path to input image
-YOLO: base path to YOLO directory
-CONFIDENCE: minimum probability to filter weak detections
-THRESHOLD: threshold when applying non-maxima suppression
+- IMAGE: path to input image
+- YOLO: base path to YOLO directory
+- CONFIDENCE: minimum probability to filter weak detections
+- THRESHOLD: threshold when applying non-maxima suppression
 
 If the input is a video, run the following:
 
 _$ yolo_video.py [-h] -i INPUT -o OUTPUT -y YOLO [-c CONFIDENCE] [-t THRESHOLD]_
 
-INPUT: path to input video
-OUTPUT: path to save output video
-YOLO: base path to YOLO directory
-CONFIDENCE: minimum probability to filter weak detections
-THRESHOLD: threshold when applying non-maxima suppression
+- INPUT: path to input video
+- OUTPUT: path to save output video
+- YOLO: base path to YOLO directory
+- CONFIDENCE: minimum probability to filter weak detections
+- THRESHOLD: threshold when applying non-maxima suppression
 
 If the input is webcam streaming, run the following:
 
 _$ yolo_webcam.py [-h] -y YOLO [-c CONFIDENCE] [-t THRESHOLD]_ 
 
-YOLO: base path to YOLO directory
-CONFIDENCE: minimum probability to filter weak detections
-THRESHOLD: threshold when applying non-maxima suppression
+- YOLO: base path to YOLO directory
+- CONFIDENCE: minimum probability to filter weak detections
+- THRESHOLD: threshold when applying non-maxima suppression
