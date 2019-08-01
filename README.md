@@ -26,7 +26,7 @@ Download *yolov3.weights* file from this [link](https://pjreddie.com/media/files
 
 If the input is an image, run the following:
 
-_$ yolo.py [-h] -i IMAGE -y YOLO [-c CONFIDENCE] [-t THRESHOLD]_
+_$ python yolo.py [-h] -i IMAGE -y YOLO [-c CONFIDENCE] [-t THRESHOLD]_
 
 - IMAGE: path to input image
 - YOLO: base path to YOLO directory
